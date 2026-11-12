@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-arcanjo-red: #D72D38;
+  --color-arcanjo-bordeaux: #A52A3C;
+  --color-arcanjo-orange: #F46036;
+  --color-arcanjo-beige: #EDE0D4;
+  --color-arcanjo-cream: #FAF5F0;
+  --color-arcanjo-dark: #1E1214;
+  --color-arcanjo-darker: #130A0B;
+
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-fredoka);
+  }
+}
+
+/* Custom scrollbar for menu / reel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #EDE0D4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D72D38;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 22s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

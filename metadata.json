@@ -1,0 +1,6 @@
+{
+  "name": "Arcanjo's Burguers",
+  "description": "Landing page oficial da hamburgueria Arcanjo's. Hambúrgueres artesanais suculentos com sabor, alegria e preço justo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
