@@ -5,20 +5,20 @@ import { DELIVERY_LINKS } from '../data/links';
 
 export function ComboBuilder() {
   const burgers = [
-    { id: 'cb-cheddar', name: 'Cheddar Burguer', price: 23.90, desc: 'Smash 100g, cheddar cremoso e maionese' },
-    { id: 'cb-bacon', name: 'Cheddar Bacon', price: 28.90, desc: 'Smash 100g, bacon crocante e cheddar' },
-    { id: 'cb-supremo', name: 'Supremo Duplo', price: 38.90, desc: '2x Smash 100g, cheddar fatiado e bacon' },
+    { id: 'cb-cheddar', name: 'Cheddar Burguer', price: 28.90, desc: 'Smash 100g, cheddar cremoso e maionese' },
+    { id: 'cb-bacon', name: 'Cheddar Bacon', price: 34.90, desc: 'Smash 100g, bacon crocante e cheddar' },
+    { id: 'cb-supremo', name: 'Supremo Duplo', price: 45.90, desc: '2x Smash 100g, cheddar fatiado e bacon' },
   ];
 
   const sides = [
-    { id: 'side-batata', name: 'Batata Frita (150g)', price: 16.90, desc: 'Crocante, sequinha e com tempero da casa' },
+    { id: 'side-batata', name: 'Batata Frita (150g)', price: 10.90, desc: 'Crocante, sequinha e com tempero da casa' },
   ];
 
   const drinks = [
     {
       id: 'drink-coca',
       name: 'Coca-Cola 350ml Lata',
-      price: 6.90,
+      price: 9.90,
       image: '/assets/aistudio/coca_lata_trimmed.png',
     },
     {

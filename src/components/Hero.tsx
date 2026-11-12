@@ -25,7 +25,7 @@ export function Hero({ onExploreMenu }: HeroProps) {
               Hambúrguer com{' '}
               <span className="text-[#D72D38]">sabor,</span>{' '}
               <span className="text-[#F46036]">alegria</span> e{' '}
-              <span className="text-[#D72D38] underline decoration-[#F46036]/60 decoration-wavy decoration-2">
+              <span className="text-[#D72D38]">
                 preço justo
               </span>
               .
@@ -129,10 +129,10 @@ export function Hero({ onExploreMenu }: HeroProps) {
                   </div>
                   <div className="text-right shrink-0">
                     <span className="block text-[11px] line-through text-[#5E4E51] tabular-nums">
-                      R$ 58,90
+                      R$ 54,90
                     </span>
                     <span className="font-heading text-lg sm:text-xl font-bold text-[#D72D38] tabular-nums">
-                      R$ 51,90
+                      R$ 46,90
                     </span>
                   </div>
                 </div>
